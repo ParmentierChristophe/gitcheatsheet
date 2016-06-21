@@ -12,63 +12,112 @@
        </h1>
     </header>
 
-    <div class="">
-      <h2>Creation</h2>
+    <div class="row">
+    	<div class="w-4">
+        <h2>Creation</h2>
+       <p id="titlep">
+         Depuis un fichier existant
+         </p>
+         <p id="colortext1">
+           $  cd ~/projet/monprojet
+           <br> $git init
+           <br>$ git add .
+         </p>
+         <p id="titlep">
+           Depuis un Repo existant
+         </p>
+         <p id="colortext1">
+             $  git clone ~/existing/repo/ ~/new/repo
+             <br>$ git clone you@host.org:dir/projet.git
+             <br>(le protocole par default est SSH)
+         </p>
+       <h2>changement locaux</h2>
+         <p id="titlep">
+           Fichier changer dans le dossier en cours
+         </p>
+         <p id="colortext1">
+           $ git status
+         </p>
+         <p id="titlep">
+           Les modifications apportées aux fichiers
+         </p>
+         <p id="colortext1">
+           $ git diff
+         </p>
+         <p id="titlep">
+           Ajouter les changements en cours au prochain commit
+         </p>
+         <p id="colortext1">
+           $ git add .
+         </p>
+         <p id="titlep">
+           Ajouter quelques modifications dans le fichier du prochain commit
+         </p>
+         <p id="colortext1">
+           $ git add -p nom_du_fichier
+         </p>
+         <p id="titlep">
+           Valider toutes les modifications locales dans les fichiers
+         </p>
+         <p id="colortext1">
+           $ git commit -a
+         </p>
+         <p id="titlep">
+           Commit le changement précédemment mis en scène
+         </p>
+         <p id="colortext1">
+           $ git commit
+         </p>
+         <h2>Historique commit</h2>
         <p id="titlep">
-          Depuis un fichier existant
+          Voir tous les commits effectué depuis le debut
           </p>
           <p id="colortext1">
-            $  cd ~/projet/monprojet
-            <br> $git init
-            <br>$ git add .
+            $  git log
           </p>
           <p id="titlep">
-            Depuis un Repo existant
+            montrer les changements au fil du temps pour un fichier spécifique
           </p>
           <p id="colortext1">
-              $  git clone ~/existing/repo/ ~/new/repo
-              <br>$ git clone you@host.org:dir/projet.git
-              <br>(le protocole par default est SSH)
+              $  git blame nom_du_fichier
           </p>
-        <h2>changement locaux</h2>
-          <p id="titlep">
-            Fichier changer dans le dossier en cours
-          </p>
-          <p id="colortext1">
-            $ git status
-          </p>
-          <p id="titlep">
-            Les modifications apportées aux fichiers
-          </p>
-          <p id="colortext1">
-            $ git diff
-          </p>
-          <p id="titlep">
-            Ajouter les changements en cours au prochain commit
-          </p>
-          <p id="colortext1">
-            $ git add .
-          </p>
-          <p id="titlep">
-            Ajouter quelques modifications dans le fichier du prochain commit
-          </p>
-          <p id="colortext1">
-            $ git add -p nom_du_fichier
-          </p>
-          <p id="titlep">
-            Valider toutes les modifications locales dans les fichiers
-          </p>
-          <p id="colortext1">
-            $ git commit -a
-          </p>
-          <p id="titlep">
-            Commit le changement précédemment mis en scène
-          </p>
-          <p id="colortext1">
-            $ git commit
-          </p>
-    </div>
+       </div>
 
+
+
+
+    	<div class="w-4">
+        <h2>Branches & Tags</h2>
+       <p id="titlep">
+         Voir toous les commits effectué depuis le debut
+         </p>
+         <p id="colortext1">
+           $  git log
+         </p>
+         <p id="titlep">
+           montrer les changements au fil du temps pour un fichier spécifique
+         </p>
+         <p id="colortext1">
+             $  git blame nom_du_fichier
+         </p>
+
+
+
+
+      </div>
+
+
+
+
+
+    	<div class="w-4">4</div>
+
+
+
+
+
+    	<p class="clear"></p>
+    </div>
 
 <footer>
 
