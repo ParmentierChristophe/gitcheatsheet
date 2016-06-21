@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Le petit cheat sheet de git</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+       <h1>
+         Git Cheat Shit
+       </h1>
+    </header>
+
+    <div class="">
+      <h2>Creation</h2>
+        <p id="titlep">
+          Depuis un fichier existant
+          </p>
+          <p id="colortext1">
+            $  cd ~/projet/monprojet
+            <br> $git init
+            <br>$ git add .
+          </p>
+          <p id="titlep">
+            Depuis un Repo existant
+          </p>
+          <p id="colortext1">
+              $  git clone ~/existing/repo/ ~/new/repo
+              <br>$ git clone you@host.org:dir/projet.git
+              <br>(le protocole par default est SSH)
+          </p>
+        <h2>changement locaux</h2>
+          <p id="titlep">
+            Fichier changer dans le dossier en cours
+          </p>
+          <p id="colortext1">
+            $ git status
+          </p>
+          <p id="titlep">
+            Les modifications apportées aux fichiers
+          </p>
+          <p id="colortext1">
+            $ git diff
+          </p>
+          <p id="titlep">
+            Ajouter les changements en cours au prochain commit
+          </p>
+          <p id="colortext1">
+            $ git add .
+          </p>
+          <p id="titlep">
+            Ajouter quelques modifications dans le fichier du prochain commit
+          </p>
+          <p id="colortext1">
+            $ git add -p nom_du_fichier
+          </p>
+          <p id="titlep">
+            Valider toutes les modifications locales dans les fichiers
+          </p>
+          <p id="colortext1">
+            $ git commit -a
+          </p>
+          <p id="titlep">
+            Commit le changement précédemment mis en scène
+          </p>
+          <p id="colortext1">
+            $ git commit
+          </p>
+    </div>
+
+
+<footer>
+
+
+</footer>
+
+
+  </body>
+</html>
