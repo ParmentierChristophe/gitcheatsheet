@@ -158,7 +158,70 @@
   <!------ column right  ------>
 
 
-    	<div class="w-4">4</div>
+    	<div class="w-4">
+        <h2>Merge & Rebase</h2>
+       <p id="titlep">
+         Merge votre branche dans votre branche actuel
+         </p>
+         <p id="colortext1">
+           $  git merge nom_de_la_branche
+         </p>
+         <p id="titlep">
+           Rebaser votre branche actuel dans la branche
+           <br id="italic">Don't rebase published commits!
+         </p>
+         <p id="colortext1">
+             $  git rebase nom_de_la_branche
+         </p>
+         <p id="titlep">
+           abandonner une rebase
+           </p>
+           <p id="colortext1">
+             $  git rebase --abort
+           </p>
+           <p id="titlep">
+             Utilisez votre outil de merge configuré pour résoudre les conflits
+           </p>
+           <p id="colortext1">
+               $  git mergetool
+           </p>
+           <p id="titlep">
+             Utilisez votre éditeur pour résoudre manuellement les conflits
+             et (après avoir résolu) Fichier marque comme résolu
+           </p>
+           <p id="colortext1">
+               $  git add fichier_resolu
+               $ git rm fichier_resolu
+           </p>
+
+
+           <h2>Annuler</h2>
+          <p id="titlep">
+            Jeter tous les changements locaux dans votre répertoire de travail
+            </p>
+            <p id="colortext1">
+              $  git reset --hard HEAD
+            </p>
+            <p id="titlep">
+              Jeter les changements locaux dans un fichier spécifique
+            </p>
+            <p id="colortext1">
+                $  git checkout HEAD nom_fichier
+            </p>
+            <p id="titlep">
+              Revenir à un commit (en produisant un nouveau commit
+              avec des changements contraires)
+              </p>
+              <p id="colortext1">
+                $  git revert nom_du_commit
+              </p>
+              <p id="titlep">
+                Reset votre branche actuel à un commit precedent
+              </p>
+              <p id="colortext1">
+                  $  git reset --hard nom_du_commit
+              </p>
+      </div>
 
 
 
