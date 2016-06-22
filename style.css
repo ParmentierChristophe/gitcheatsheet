@@ -19,6 +19,20 @@ body
 	color : #333;
 	background : #3d4652;
 }
+
+h1{
+	font-family:  'bebas_neueregular';
+	text-align: center;
+	font-size: 50px;
+	color: #ffefaf;
+}
+
+h3 {
+	text-align: center;
+	color: #ffefaf;
+	text-transform: uppercase;
+}
+
 h2 {
 	font-family: 'bebas_neueregular';
 	background: #c5c7cb;
@@ -29,12 +43,24 @@ h2 {
 
 #titlep {
 color: #c5c7cb;
+font-weight: bold;
 }
 
 #colortext1 {
 	background-color: #ffefaf ;
+	padding-left: 10px;
 }
 
+footer {
+	border-top: solid 1px #ffefaf;
+	margin-top: 30px; 
+}
+
+footer p {
+	text-align: center;
+	color: #ffefaf;
+	text-transform: uppercase;
+}
 
 
 
