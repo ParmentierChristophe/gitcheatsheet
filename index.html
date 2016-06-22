@@ -12,6 +12,8 @@
        </h1>
     </header>
 
+  <!------ column left  ------>
+
     <div class="row">
     	<div class="w-4">
         <h2>Creation</h2>
@@ -84,30 +86,76 @@
        </div>
 
 
-
+  <!------ column middle  ------>
 
     	<div class="w-4">
         <h2>Branches & Tags</h2>
        <p id="titlep">
-         Voir toous les commits effectué depuis le debut
+         Liste toutes les branches
          </p>
          <p id="colortext1">
-           $  git log
+           $  git branch -av
          </p>
          <p id="titlep">
-           montrer les changements au fil du temps pour un fichier spécifique
+           Changer de branche
          </p>
          <p id="colortext1">
-             $  git blame nom_du_fichier
+             $  git checkout nom_de_la_branche
          </p>
+         <p id="titlep">
+           Creer une nouvelle branche
+           </p>
+           <p id="colortext1">
+             $  git branch new_branch
+           </p>
+           <p id="titlep">
+             Creer une branch basé sur votre remote
+           </p>
+           <p id="colortext1">
+               $  git checkout --track remote/nom_branch
+           </p>
+           <p id="titlep">
+             Supprimer une branche
+             </p>
+             <p id="colortext1">
+               $  git branch -d nom_branch
+             </p>
+             <p id="titlep">
+               Marquer le commit actuel avec un Tag
+             </p>
+             <p id="colortext1">
+                 $  git tag nom_du_tag
+             </p>
 
-
-
-
+             <h2>Update et Publier</h2>
+            <p id="titlep">
+              Liste toutes les remotes actuellement configurées
+              </p>
+              <p id="colortext1">
+                $  git remote -v
+              </p>
+              <p id="titlep">
+                Voir les informations sur le remote
+              </p>
+              <p id="colortext1">
+                  $  git remote show nom_du_remote
+              </p>
+              <p id="titlep">
+                Supprimer une branche dans le remote
+                </p>
+                <p id="colortext1">
+                  $  git branch -dr nom_remote/branche
+                </p>
+                <p id="titlep">
+                  Publier vos Tags
+                </p>
+                <p id="colortext1">
+                    $  git push --tag
+                </p>
       </div>
 
 
-
+  <!------ column right  ------>
 
 
     	<div class="w-4">4</div>
