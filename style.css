@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+
+
+
 body
 {
 	line-height: 1.6em;
@@ -9,13 +20,20 @@ body
 	background : #3d4652;
 }
 h2 {
+	font-family: 'bebas_neueregular';
 	background: #c5c7cb;
 	color:#3d4652;
 	text-transform: uppercase;
 	padding: 10px ;
 }
 
+#titlep {
+color: #c5c7cb;
+}
 
+#colortext1 {
+	background-color: #ffefaf ;
+}
 
 
 
